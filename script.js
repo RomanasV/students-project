@@ -1,6 +1,8 @@
 let studentsLocalStorage = JSON.parse(localStorage.getItem('initialStudentsData'));
 const INITIAL_STUDENT_DATA = studentsLocalStorage ? studentsLocalStorage : [];
 
+console.log('labas rytas');
+
 let studentForm = document.querySelector('#student-form');
 let editStudent = null;
 
